@@ -1,0 +1,142 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  
+  .about-text {
+    flex: 1;
+    margin-bottom: 2.5rem;
+    animation: slideLeft 0.5s ease-out;
+    /* margin-left: 96px; */
+    justify-items: center;
+  }
+  
+  .about-title {
+    
+    color: #f472b6;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  
+  }
+  
+  .about-description {
+    /* margin-left: 36; */
+    font-size: medium;
+    font-weight: 300;
+  }
+  
+  
+  .about-image-container {
+    display: flex;
+    justify-content: center;
+    width: 50%; 
+    /* margin-bottom: 1.5rem; */
+    margin-bottom: 20%;
+    margin-left: 220px;
+    
+  }
+  
+  .about-image {
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 50%; 
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .about-footer {
+    background-color: #000000;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0%;
+  }
+  
+  .about-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    
+    flex-direction: row;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+  }
+  
+  .instagram {
+    color: #d02670;
+  }
+  
+  .linkedin {
+    color: #0077b5;
+  }
+  
+  .about-footer-text {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-email {
+    color: #fbbf24;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 1.5rem;
+    }
+  
+    .about-title {
+      font-size: 1.5rem;
+    }
+  
+    .about-description {
+      font-size: 1rem;
+    }
+  
+    .about-image-container {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 9.5rem;
+    }
+  
+    .about-image {
+      width: 100%;
+      max-width: 300px;
+      
+    }
+  
+    
+    .about-social-links {
+      flex-direction: row; 
+      gap: 1rem;
+    }
+  
+    .social-icon {
+      font-size: 1.25rem;
+    }
+  }
+  
+  
+  @keyframes slideLeft {
+    from {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

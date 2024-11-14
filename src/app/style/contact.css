@@ -1,0 +1,106 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 18rem;
+    
+    font-family: sans-serif;
+    color: white;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .contact-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-form {
+    
+    
+    background-color: #00000080 =50% transparency; 
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 28rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-form:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    display: block;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .submit-button:hover {
+    background-color: #2563eb; 
+  }
+  
+  .contact-footer {
+    background-color: #000000;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+  
+  .instagram {
+    color: #d02670;
+  }
+  
+  .linkedin {
+    color: #0077b5;
+  }
+  
+  .footer-text {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-email {
+    color: #fbbf24;
+  }

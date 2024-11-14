@@ -1,0 +1,38 @@
+
+
+.contact-footer {
+    /* background-color: #000000; */
+    background-color: #0a0311;
+
+    position: relative;
+    height: 6;
+    transition: background-color 0.3s ease-in-out;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+    
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    /* gap: 1rem; */
+    ;
+  }
+  
+  .footer-links a {
+    font-size: 1.5rem;
+    
+  }
+  
+  .footer p {
+    margin-top: 1rem;
+    padding:20px;
+  }
+  
+  .footer-email {
+    color: #fbbf24;
+  }
+  

@@ -1,0 +1,104 @@
+.projectContainer {
+    display: flex; 
+    justify-content: center; 
+    gap: 2rem; 
+    flex-wrap: wrap; 
+    padding-top: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%; 
+  }
+  
+  .projectItem {
+    
+    background-color: #00000080 =50% transparency; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem; 
+    
+    
+  }
+  
+  .homes-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f472b6;
+    
+  }
+  
+  
+  .projectImage {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+    width: 100%; 
+    height: auto;
+  }
+  
+  .projectDescription {
+    
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    /* font-size: 1rem; */
+    font-size: medium;
+  }
+  
+  @media (max-width: 768px) {
+    .projectContainer {
+      gap: 1rem; 
+      padding-top: 2rem; 
+    }
+    .projectItem {
+      width: 90%; 
+      margin-top: 1rem; 
+      
+    }
+  
+    .homes-title {
+      font-size: 1.5rem; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projectItem {
+      width: 320px; 
+    }
+  
+    .homes-title {
+      font-size: 2.5rem; 
+    }
+  }
+  
+  .footer {
+    background-color: #000000;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer p {
+    margin: 0.5rem 0;
+  }
+  
+  .socialIcons a {
+    margin: 0 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .socialIcons a:hover {
+    color: #FFD700; 
+  }
