@@ -1,0 +1,168 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to left, #000000, #cd3e83, #080808);
+  /* background: linear-gradient(to left, #000000, #1e022e, #080808); */
+
+  margin-top: -3rem;
+  height: 100vh;
+}
+
+.home-text {
+  flex: 1;
+  padding: 12px;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.home-text-left {
+  text-align: left;
+  margin-right: 17rcap;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.home-title span {
+  font-size: 2.25rem;
+  color: #deadc5;
+}
+
+.home-description {
+  /* font-size: 1.5rem; */
+  font-size: medium;
+  padding-top: 5%;
+}
+
+.home-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.home-buttons button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.button-pink {
+  background-color: #ec4899;
+  color: white;
+  
+
+}
+
+.button-pink:hover {
+  background-color: white;
+  color: #ec4899;
+}
+
+.button-white {
+  background-color: white;
+  color: black;
+}
+
+.button-white:hover {
+  background-color: #ec4899;
+  color: white;
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  max-width: 43%;
+}
+
+.home-image {
+  object-fit: cover;
+  padding-bottom: 95%;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1.5rem;
+    margin-top: 0;
+    height: auto;
+  }
+
+  .home-text {
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  .home-title {
+    font-size: 1.5rem;
+  }
+
+  .home-title span {
+    font-size: 1.75rem;
+  }
+
+  .home-description {
+    font-size: 1.2rem;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .home-buttons button {
+    padding: 0.5rem 1rem;
+    width: 80%;
+  }
+
+  .home-image-container {
+    max-width: 80%;
+    gap: 0;
+  }
+
+  .home-image {
+    padding-bottom: 80%;
+  }
+}
+
+.footer {
+  background-color: #000000;
+  position: relative;
+  height: 6;
+  transition: background-color 0.3s ease-in-out;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+  
+.footer-links {
+  display: flex;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.footer-links a {
+  font-size: 1.5rem;
+}
+
+.footer p {
+  margin-top: 1rem;
+  padding:20px;
+}
+
+.footer-email {
+  color: #fbbf24;
+}
+
